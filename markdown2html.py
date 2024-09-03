@@ -37,7 +37,7 @@ if __name__ == '__main__':
                         md5_inside[0].encode()).hexdigest())
 
                 # remove the letter C
-                remove_letter_c = re.findall(r'\(\(.+?\)\)', line)
+                remove_letter_c = re.findall(r'\(\(.+?\)\)', line)https://github.com/IamNaeto/alx-react/tree/main/0x00-Webpack/task_1/public
                 remove_c_more = re.findall(r'\(\((.+?)\)\)', line)
                 if remove_letter_c:
                     remove_c_more = ''.join(
